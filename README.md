@@ -2,7 +2,7 @@
 
 Minimal student record manager in C — menu-driven insert, delete, search, display.
 
-I wrote this while revisiting pointer basics during my Robotics & AI coursework at KJ Somaiya. Nothing fancy, but it's clean, compiles with `gcc`, and handles the edge cases that usually break classroom submissions (newline after `scanf`, empty list deletes).
+I wrote this while revisiting pointer basics before heavier systems work. Nothing fancy, but it's clean, compiles with `gcc`, and handles the edge cases that usually break classroom submissions (newline after `scanf`, empty list deletes).
 
 ## Build & run
 
