@@ -1,8 +1,8 @@
 # student-crud-c
 
-Minimal student record manager in C — menu-driven insert, delete, search, display.
+Low-level C practice — not a showcase project, just fundamentals done right.
 
-I wrote this while revisiting pointer basics before heavier systems work. Nothing fancy, but it's clean, compiles with `gcc`, and handles the edge cases that usually break classroom submissions (newline after `scanf`, empty list deletes).
+I keep this repo to prove I can still write correct systems code: pointers, stdin handling, and `-Wall` clean compiles. Useful before touching embedded drivers or ROS nodes where sloppy I/O causes real bugs.
 
 ## Build & run
 
@@ -11,14 +11,13 @@ gcc -Wall -Wextra -std=c11 -o student_crud src/main.c
 ./student_crud
 ```
 
-## Features
+## What it covers
 
-- Fixed-size array (max 100 records)
-- Insert with roll number + name
-- Delete last entry (stack-style — good enough for the assignment spec)
-- Search by roll number
-- Display all records
+- Fixed-size array storage (100 records)
+- Insert / delete / search / display
+- `scanf` + `fgets` newline bug handled
+- Invalid menu input doesn't crash the loop
 
-## Why it's here
+## Why it exists
 
-Recruiters for AI roles still want to see you can write correct low-level code. This repo is intentionally small and honest — one file, no over-engineering.
+Robotics work still hits C at the edges — firmware, serial bridges, drivers. This is deliberate fundamentals practice, not portfolio filler.
