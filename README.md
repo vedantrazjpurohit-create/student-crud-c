@@ -21,3 +21,9 @@ gcc -Wall -Wextra -std=c11 -o student_crud src/main.c
 ## Why it exists
 
 Robotics work still hits C at the edges — firmware, serial bridges, drivers. This is deliberate fundamentals practice, not portfolio filler.
+
+## Related repos
+
+- [aruco-localizer](https://github.com/vedantrazjpurohit-create/aruco-localizer) — vision / pose estimation
+- [rag-eval-bench](https://github.com/vedantrazjpurohit-create/rag-eval-bench) — RAG evaluation pipeline
+- [rag-api](https://github.com/vedantrazjpurohit-create/rag-api) — FastAPI retrieval service
